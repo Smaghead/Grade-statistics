@@ -58,7 +58,7 @@ public class PointCalculator {
         }
         return 100 * passingCount / points.size();
     }
-    //TODO refactor into own class
+    //TODO refactor into own class, with hash-map
     public void gradeDistribution() {
         int grade0 = 0;
         int grade1 = 0;
