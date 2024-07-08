@@ -58,7 +58,7 @@ public class PointCalculator {
         }
         return 100 * passingCount / points.size();
     }
-    // won't work redo!!
+    //TODO refactor into own class
     public void gradeDistribution() {
         int grade0 = 0;
         int grade1 = 0;
