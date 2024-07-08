@@ -8,7 +8,7 @@ public class Main {
         UI ui = new UI(scanner, pointCalc);
         
         ui.start();
-        //part4 inProgress
+        
         
         
     }
