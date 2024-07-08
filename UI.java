@@ -9,6 +9,7 @@ public class UI {
     
     public void start() {
         System.out.println("Enter point totals, -1 stops:");
+        //TODO do it with do-while
         while (true) {
             int input = scanner.nextInt();
             if (input == -1) {
